@@ -1,0 +1,82 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    margin: 0;
+}
+@media only screen and (max-width: 975px) {
+  
+}
+
+h2,p {
+    text-align: center;
+}
+.invis {
+    display: none;
+}
+
+footer {
+    background-color: #f7f7f7;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container > hr {
+    border-top: 0.5px solid #e7e3e338;
+    border-left: none;
+}
+
+#container1 #inner1 {
+    display: flex;
+}
+#container1 #inner1 .item {
+    width: 25%;
+}
+
+#container1 ul {
+    list-style: none;
+    line-height: 225%;
+    
+}
+
+#container1 ul li.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+#container2 div,#container2 div i {
+    padding: 10px;
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#container2 div.inline.two {
+    display: flex;
+    align-items: baseline;
+    justify-content:space-evenly;
+}
+
+#container2 > div.inline {
+    width: 50%;
+}
+
+#container2 div.inline.two span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#container2 div.inline.two i{
+    font-size: 1rem;
+    cursor: pointer;
+}
